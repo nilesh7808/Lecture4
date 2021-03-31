@@ -1,0 +1,32 @@
+section {
+    margin: 50px auto;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+section h1 {
+    text-align: center;
+    border: 1px solid black;
+    margin: 30px auto;
+    width: 70%;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: palegoldenrod;
+}
+
+article {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    margin: 40px 40px 40px 40px;
+    border: 1px solid black;
+    background-image: url("https://images.unsplash.com/photo-1550853024-fae8cd4be47f?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDk5fDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+article img:hover {
+    max-zoom: initial;
+}
